@@ -5,8 +5,8 @@ import { useState } from 'react';
 export default function Form(props) {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
-  console.log(name);
-  console.log(number);
+  // console.log(name);
+  // console.log(number);
   const handleChange = event => {
     const { name, value } = event.currentTarget;
     switch (name) {
